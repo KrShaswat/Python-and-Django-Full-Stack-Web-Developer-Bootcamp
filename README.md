@@ -28,3 +28,13 @@ CSS One
 4. basics5.html + basics.css - hierarchy
 5. css_1_sol.html + css_1_sol.css - assignment
  
+CSS Two
+
+1. css2_fontprop.html + css2_fontprop.css - font style, size, bold and italic, alignment
+2. css2_font2.html + css2_font2.css - fetching font from online, google font etc.
+3. boxmodel.html + boxmodel.css - border, margin, padding
+4. CSS_spectrum.html + CSS_spectrum.css - asasignment
+
+Capstone Project One
+
+1. LandinPage.css + LandingPage.html + thankyou.html
