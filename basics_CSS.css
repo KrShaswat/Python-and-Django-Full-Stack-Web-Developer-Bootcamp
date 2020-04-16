@@ -1,0 +1,30 @@
+/* for basics_css.html */
+/* selected tag{
+
+} */
+
+h1{
+    color: blue;
+}
+
+/* go to google to select color "color picker"
+here we are using RGB
+*/
+li{
+    color: rgb(252, 107, 3);
+}
+
+/*
+Here we are using HEX color codes
+most used
+ */
+p{
+    color: #04c2b8;
+}
+
+/*
+In rgba a represents how opaque or transparent color is
+ */
+h4{
+    color: rgba(252, 107, 3, 1)
+}

@@ -1,0 +1,54 @@
+/*
+A major part of what we've seen so far has revoloved around the idea of
+CSS "Selectors"
+Selectors in general are used to target HTML elements that we want to style
+
+we can use "ids" to target single elements
+and "classes" to target groups of elements
+*/
+
+
+/*
+to change color of all divs
+div {
+    color: red;
+} */
+
+/* what if we wanna change each div differently? we use .classname */
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+/* ids is for one element while classes can have many element in them. ids use #*/
+#singledout{
+    color: green;
+    text-decoration: line-through;
+}
+
+*{
+    colour: black;
+}
+
+/* CSS Selectors */
+
+/* Selecting all unordered list next to a h3 */
+
+h3 + ul {
+    border: 4px dotted purple;
+}
+
+/* any anchor tag inside a list */
+li a{
+    color: red;
+}
+
+/* if we go further than this and specify elements with one specific href */
+
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 5px solid orange;
+}

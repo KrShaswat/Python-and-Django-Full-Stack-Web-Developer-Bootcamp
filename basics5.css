@@ -1,0 +1,16 @@
+/* this part is to target specificity
+Specificity defines the hierarchy of CSS Styling, and what type of tags
+overrule others */
+
+/* General tag call */
+li{
+    color: red;
+}
+
+.topitems{
+    color: blue;
+}
+
+#two{
+    border: 3px solid black;
+}

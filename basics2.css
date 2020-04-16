@@ -1,0 +1,29 @@
+/* for backgrounds and borders */
+body{
+    /* background-color: gray; */
+    /* for image as background */
+    background: url(https://images7.alphacoders.com/891/891760.png);
+    background-repeat: repeat;
+}
+
+div{
+    background-color: blue;
+
+    /* border will require 3 parts, boder colour, width and style */
+    border-colour: orange;
+    /* generally instead of using thin or thick we use pixels */
+    /* 10 px and 10px are different things */
+    border-width: 5px;
+    border-style: groove;
+}
+
+/* this will change all the paragraphs in html we need somethinf
+for specific stuff */
+p {
+    color: yellow;
+}
+
+span{
+    background: red;
+    color: black;
+}
