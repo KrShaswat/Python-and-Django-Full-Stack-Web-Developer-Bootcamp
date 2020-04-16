@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms with labels</title>
+    </head>
+    <body>
+        <form>
+            <h2>Enter Email:</h2>
+            <input type="email" name="useremail" value="">
+            <input type="submit" name="" value="Submit">\
+
+        </form>
+        <form>
+            <h2>Enter Text</h2>
+            <input type="text" name="Userinput" value="">
+        </form>
+
+        <form action="https://www.google.com" method="get">
+
+            <h2>Enter Text and take me to google</h2>
+            <input type="text" name="UserInput" value="">
+            <input type="submit" name="" value="Submit">
+
+        </form>
+
+        <form>
+            <p>Enter Some text</p>
+            <input type="text" name="" value="">
+
+        </form>
+
+        <!-- Labels at last -->
+
+        <form>
+            <!-- using label without for -->
+            <label>
+                Enter Input:
+                <input type="text" name="" value="block 1">
+            </label>
+            <label>
+                Enter Text:
+                <input type="text" name="" value="block 2">
+            </label>
+
+        </form>
+
+        <form>
+            <label for="userinput">
+                Enter Text:
+            </label>
+            <input id="userinput" type="text" name="" placeholder="Hello!">
+            <input id="userinput" type="text" name="" placeholder="World!" required>
+            <input type="submit" name="" value="Submit">
+        </form>
+    </body>
+</html>

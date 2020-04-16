@@ -1,0 +1,58 @@
+<!-- this html page explores the variety of input methods for forms such as:
+1. Radio Button (Linked)
+2. Drop Down Menus
+3. Text Area inputs.
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Forms and Selections</title>
+    </head>
+    <body>
+        <h1>Hotel Feedback Form</h1>
+
+        <form method="get">
+            <h3>Are you from USA or Outside of US</h3>
+
+            <label for="inusa">Inside: </label>
+            <input id="isusa" type="radio" name="" value="">
+
+            <label for="outusa">Outside: </label>
+            <input id="outusa" type="radio" name="" value="">
+            <!-- now here the radio buttons are both selectable
+            because you are either from outside usa or inside
+            there is no option here-->
+
+        </form>
+
+        <form method="get">
+            <!-- In this form we will try the above problem by
+            linking both radio buttons by naming them -->
+            <h3>Are you from inside the US? Or Outside the US</h3>
+
+            <label for="inusa">Inside: </label>
+            <input id="inusa" type="radio" name="loc" value="inside">
+
+            <label for="outusa">Outside: </label>
+            <input id="outusa" type="radio" name="loc" value="outside">
+
+            <!-- here with same name it becomes a selections -->
+
+            <h3>How was your service?</h3>
+
+            <select name="stars">
+                <option value="3">Great!</option>
+                <option value="2">OK</option>
+                <option value="1">Bad . . .</option>
+
+            </select>
+
+            <h3>Any other Feedback ?</h3>
+
+            <textarea name="mytext" rows="8" cols="80"></textarea>
+
+            <input type="submit" name="" value="submit">
+        </form>
+    </body>
+</html>
