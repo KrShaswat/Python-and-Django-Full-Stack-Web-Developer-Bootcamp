@@ -13,9 +13,18 @@ HTML One
 
 HTML two
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. tables.html
+2. TablesQuiz.html
+3. forms_basics.html
+4. forms_labels.html
+5. forms_selection.html
+6. forms_assessment.html
+
+CSS One
+
+1. basics_CSS.html + basics_CSS.css - Color
+2. basics2.html + basics2.css - background color, border, paragraph tag, span tag
+3. basics3.html + basics3.csss - class tag, id tag, css selectors multiple
+4. basics5.html + basics.css - hierarchy
+5. css_1_sol.html + css_1_sol.css - assignment
+ 
