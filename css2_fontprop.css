@@ -1,0 +1,31 @@
+/* We will cover font properties in this such as
+size, weight, text, alignment, etc.
+and how to download and change font
+ */
+h1
+{
+    /* not all fonts are present in all OS */
+    font-family: "Arial";
+}
+p{
+    font-family: monospace;
+}
+body{
+    font-size: 20px
+}
+
+/* 1em = 16px
+2em = 32px */
+
+#two{
+    font-size: 1.0em;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}

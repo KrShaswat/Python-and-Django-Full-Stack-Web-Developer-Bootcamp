@@ -1,0 +1,9 @@
+/* https://www.cssfontstack.com/ */
+h1
+{
+    /* not all fonts are present in all OS */
+    font-family: "Arial";
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
